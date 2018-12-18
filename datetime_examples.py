@@ -89,5 +89,14 @@ d.isoformat()
 
 
 '''
+GIST 2 Time Delta
+'''
+from datetime import timedelta
+yesterday = date.today() - timedelta(1)
+tomorrow = date.today() + timedelta(1)
+datetime.datetime(year=1984, month=6, day=24, hour=18, minute=30)
+another_datetime = my_datetime.replace(year=2014, month=1)
+timedelta(days=365, hours=8, minutes=15)
+'''
 GIST 2 Business Dates
 '''
